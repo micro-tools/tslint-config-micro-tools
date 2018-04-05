@@ -1,0 +1,21 @@
+{
+  "name": "tslint-config-micro-tools",
+  "version": "0.1.0",
+  "description": "tslint configuration used by micro-tools and nodefulent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micro-tools/tslint-config-micro-tools.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "micro-tools",
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": ">= 5"
+  }
+}

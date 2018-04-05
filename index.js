@@ -1,0 +1,35 @@
+module.exports = {
+  "extends": "tslint:recommended",
+  "rules": {
+    "arrow-parens": false,
+    "import-spacing": false,
+    "interface-name": false,
+    "max-classes-per-file": false,
+    "member-access": false,
+    "member-ordering": false,
+    "no-shadowed-variable": false,
+    "no-string-literal": false,
+    "no-unused-variable": {
+      "options": true,
+      "severity": "warning"
+    },
+    "no-var-requires": false,
+    "one-line": {
+      "severity": "warning"
+    },
+    "only-arrow-functions": {
+      "options": [true, "allow-named-functions"],
+      "severity": "warning"
+    },
+    "ordered-imports": false,
+    "object-literal-key-quotes": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore"
+    ]
+  }
+}
