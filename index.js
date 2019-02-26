@@ -9,10 +9,6 @@ module.exports = {
     "member-ordering": false,
     "no-shadowed-variable": false,
     "no-string-literal": false,
-    "no-unused-variable": {
-      "options": true,
-      "severity": "warning"
-    },
     "no-var-requires": false,
     "one-line": {
       "severity": "warning"
